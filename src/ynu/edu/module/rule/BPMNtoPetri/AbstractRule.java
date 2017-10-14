@@ -16,6 +16,6 @@ public abstract class AbstractRule {
 	
 	protected abstract LinkedList<String> split(Graphics<BpmnElement> graphics);
 	
-	public abstract Graphics<PetriElement> transfer(Graphics<BpmnElement> graphics);
+	public abstract void transfer(Graphics<BpmnElement> graphics,Graphics<PetriElement> result);
 	
 }
